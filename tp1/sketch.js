@@ -1,3 +1,9 @@
+//Ramiro Pereyra
+// Comisión 2
+// 120353/2
+//https://youtu.be/_UOYjE57aTI
+
+// carga de imagen
 let imagenR;
 
 // Variables
@@ -106,3 +112,4 @@ function dibujarGrillaLineas(grosor) {
     line(i, 0, i, 400);
   }
 }
+
