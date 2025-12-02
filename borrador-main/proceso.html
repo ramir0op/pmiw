@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+
+    <!-- Fuente personalizada para títulos -->
+    <style>
+        @font-face {
+            font-family: "TituloFont";
+            src: url("fonts/Tomeoftheunknown-3gL3.ttf") format("opentype");
+        }
+    </style>
+
+    <!-- Fuente Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        body,
+        p,
+        li,
+        span {
+            font-family: "Inter", sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: "TituloFont", serif;
+        }
+
+        img.full-width {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 20px;
+        }
+
+        .accordion-button {
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav class="border split-nav">
+        <div class="nav-brand">
+            <h3><a href="#">Over The Garden Wall</a></h3>
+        </div>
+        <div class="collapsible">
+            <input id="menu" type="checkbox" name="menu">
+            <label for="menu">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </label>
+            <div class="collapsible-body">
+                <ul class="inline">
+                    <li><a href="index.html">Documentation</a></li>
+                    <li><a href="proceso.html">About</a></li>
+                    <li><a href="acceso.html">Github</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO -->
+    <div class="paper container">
+
+        <!-- TÍTULO -->
+        <h1 class="article-title">Un cuento desde 
+            "Mas alla del jardin"</h1>
+
+        <!-- DESCRIPCIÓN -->
+        <p class="text-lead">
+            Un portal hacia la Aventura Gráfica inspirada en Over The Garden Wall.
+        </p>
+
+        <!-- IMAGEN FULL WIDTH -->
+        <img src="img/bosque.jpg" alt="Imagen principal" class="full-width">
+
+        <hr>
+
+        <!-- TEXTO PRINCIPAL -->
+        <p>
+            Un recorrido por paisajes boscosos etc etc.
+        </p>
+
+        <h4>XXXXXXXXXXXXXXXXXXXX.</h4>
+
+        <p>
+            La aventura gráfica explora el universo de Wirt y Greg donde lo cotidiano se quiebra y la atmósfera se vuelve bizarra,
+            conforme los protagonistas van avanzando en la historia.
+        </p>
+
+        <ul>
+            <li>A.</li>
+            <li>B.</li>
+            <li>C.</li>
+        </ul>
+
+        <hr>
+
+        <!-- ACCORDION -->
+
+        <div class="row">
+            <div class="sm-12">
+                <details>
+                    <summary><strong>– Armado de moodboards</strong></summary>
+                    <p>
+                        Investigamos imágenes y creamos moodboards para definir estilos visuales que recuerden la sensacion bizarra del ambiente de Over The Garden Wall.
+                    </p>
+                </details>
+
+                <details>
+                    <summary><strong>– Construcción del estilo visual</strong></summary>
+                    <p>
+                        Establecimos un estilo xxxxxxxxxxxxxxx
+                    </p>
+                </details>
+
+                <details>
+                    <summary><strong>– Implementación</strong></summary>
+                    <p>
+                        Aplicamos el lenguaje visual a escenas interactivas que fragmentan la narrativa como si fueran
+                        mensajes interceptados de una red viva.
+                    </p>
+                </details>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- AUTORES -->
+        <h4>Quienes Salieron del bosque:</h4>
+        <p>Ramiro Pereyra</p>
+        <p>Marina Vergara</p>
+
+    </div>
+
+</body>
+
+</html>

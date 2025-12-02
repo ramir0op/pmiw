@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+    <style>
+        @font-face {
+            font-family: "TituloFont";
+            src: url("fonts/Tomeoftheunknown-3gL3.ttf") format("opentype");
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body,
+        p,
+        li,
+        span {
+            font-family: "Inter", sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: "TituloFont", serif;
+        }
+
+        .btn-normal {
+            border: 1px solid #000 !important;
+            box-shadow: none !important;
+            border-radius: 4px !important;
+        }
+    </style>
+    <title>Sitio Web </title>
+</head>
+
+<body>
+    <nav class="border split-nav">
+        <div class="nav-brand">
+            <h3><a href="#">Get PaperCSS</a></h3>
+        </div>
+        <div class="collapsible">
+            <input id="collapsible1" type="checkbox" name="collapsible1">
+            <label for="collapsible1">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </label>
+            <div class="collapsible-body">
+                <ul class="inline">
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Github</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="paper container">
+        <div class="row">
+            <div class="md-8  sm-12 col">
+                <article class="article">
+                    <h1 class="article-title">Mas Alla del Jardin</a></h1>
+                    <p class="text-lead"> Lorem... </p>
+                    <p>Lorem...</p>
+
+                </article>
+            </div>
+            <div class="md-4 sm-12 col">
+                <h3>Integrantes</h3>
+                <div>
+                    <div class="collapsible">
+                        <input id="collapsible-first" type="checkbox" name="collapsible">
+                        <label for="collapsible-first">Marina Vergara</label>
+                        <div class="collapsible-body">
+                            <span>Estudiante de diseño multimedial.</span>
+                        </div>
+                    </div>
+                    <div class="collapsible">
+                        <input id="collapsible2" type="checkbox" name="collapsible">
+                        <label for="collapsible2">Ramiro Pereyra</label>
+                        <div class="collapsible-body">
+                            <span>Estudiante de diseño multimedial.</span>
+                        </div>
+                    </div>
+
+                </div>
+                <h4>Ver Aventura Grafica</h4>
+                <div class="row flex-spaces child-borders">
+                    <label class="paper-btn btn-normal" for="modal-1">Click aqui</label>
+                </div>
+                <input class="modal-state" id="modal-1" type="checkbox">
+                <div class="modal">
+                    <label class="modal-bg" for="modal-1"></label>
+                    <div class="modal-body">
+                      <label class="btn-close" for="modal-1">X</label>
+
+        <h4 class="modal-title">Aventura Gráfica</h4>
+        <iframe 
+            src="p5/index.html"
+            width="650" 
+            height="490" 
+            style="border:none;">
+        </iframe>
+
+    </div>
+</div>
+        </div>
+       <div class="row">
+
+    <div class="md-6 sm-12 col">
+        <a href="acerca.html" style="text-decoration:none; color:inherit;">
+            <div class="card">
+                <img src="img/banda.jpg" alt="banda" class="no-border">
+                <div class="card-body">
+                    <h4 class="card-title">¿De qué trata la serie?</h4>
+                    <p class="card-text">Breve descripción…</p>
+                    <span class="btn-normal">Ver más</span>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="md-6 sm-12 col">
+        <a href="proceso.html" style="text-decoration:none; color:inherit;">
+            <div class="card">
+                <img src="img/bosque.jpg" alt="bosque" class="no-border">
+                <div class="card-body">
+                    <h4 class="card-title">Información adicional</h4>
+                    <p class="card-text">Detalles relevantes…</p>
+                    <span class="btn-normal">Ir a la página</span>
+                </div>
+            </div>
+        </a>
+    </div>
+
+</div>
+        <div class="row">
+            <div class="md-6 sm-4 col">
+                <img src="img/dormidos.jpg" alt="hermanos durmiendo" class="no-border">
+            </div>
+            <div class="md-6 sm-8 col">
+                <h5>Pie de Pagina</h5>
+                <p>Algún dato Random</p>
+            </div>
+        </div>
+</body>
+
+</html>
